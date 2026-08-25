@@ -1,2 +1,18 @@
-# machineLearning_project
-citrus lib breast cancer dataset tht conatins malation and meleton basic ml preproscessing build 2 models decessio tree and linear reg if value missing replace mean or mode if categroical thn mode spit to trian n test 30/70 train the model get performacne metrics to 30 percent data send it to again later cpnfsuion tree for test data 
+## Model Evaluation Summary
+
+
+#MODEL EVALUATION ON TRAINING DATA (70%)
+Logistic Regression: 96.23% Accuracy
+Decision Tree: 100.00% Accuracy
+
+
+
+#MODEL EVALUATION ON TESTING DATA (30%)
+Logistic Regression: 96.49% Accuracy
+Decision Tree: 94.15% Accuracy
+
+
+#FINAL CONCLUSION
+Logistic Regression: Better Generalization
+Decision Tree: Overfitting Observed
+Explanation: Logistic Regression performed more consistently on both the training and testing data. The Decision Tree achieved a perfect 100% accuracy on the training data but showed a drop to 94.15% accuracy on the testing data, which is a clear indication of overfitting.
